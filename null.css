@@ -1,0 +1,121 @@
+        @font-face {
+            font-family: Terra;
+            src:  url(7X7PixelizedRegular.otf);
+        }
+ .main {
+        height: 60px;
+        background: black;
+        width: 1920px; 
+        height: 2400px; 
+        background: #1f1f1f; 
+        margin-left: auto; 
+        margin-right: auto; 
+        font-family: 'Terra';
+    }
+    .title {
+        width: 1920px; 
+        height: 130px; 
+        margin-left: auto; 
+        margin-right: auto;
+        display: flex;
+    }
+    .logo_container {
+        width: 300px; 
+        height: 100px; 
+        margin-right: 310px;
+    }
+    .logo {
+        margin-left: 40px;
+        width: 400px;
+        height: 120px;
+    }
+    .profile {
+        width: 50px;
+    }
+    .banner {
+        width: 730px; 
+        height: 900px; 
+        background: url('bg.jpg');
+        background-size: 730px 900px;
+    }
+
+    .banner_text_container {
+        width: 1000px; 
+        height: 150px; 
+        padding-top: 150px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center;
+    }
+
+    .banner_header {
+        margin: 0; 
+        color: #F7F7F7; 
+        font-size: 48px;
+    }
+
+    .banner_text {
+        font-size: 24px; 
+        color: #fff;
+    }
+    .skeleton {
+        width: 1600px; 
+        height: 1700px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center;
+    }
+    .links {
+        color: white; 
+        font-size: 24px; 
+        margin-right: 35px;
+        text-decoration: none;
+    }
+   .header {
+    color: #C8C8C8; 
+    font-size: 30px;
+    margin-right: auto;
+   }
+    .info {
+    color: #C8C8C8; 
+    font-size: 24px;
+    margin-right: auto;
+   }
+   .row {
+    width: 1600px;
+    height: 310px; 
+    margin-bottom: 40px;  
+    display: flex;
+   }
+   .block {
+    width: 345px;
+    height: 310px;
+    margin-right: 30px;
+    }
+    .text_yellow {color: #E2C61A}
+    .button {padding-top: 10px; 
+        padding-bottom: 10px; 
+        padding-left: 60px; 
+        padding-right: 60px; 
+        background: #72E268; 
+        border: none; 
+        font-size: 12px}
+    .image1 {
+        width: 270px; 
+        height: 270px
+    }
+    .image2 {
+        width: 500px; 
+        height: 270px
+    }
+    .image3 {
+     width: 200px; 
+     height: 270px
+    }
+    .mx-auto {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .d-flex {
+        display: flex;
+    }
